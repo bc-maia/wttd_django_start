@@ -134,8 +134,7 @@ def home(request):
 
 ## Make the view file
 
-Create an index.html file inside a templates folder
-with some _Lorem Ipsum_ content.
+Create an **index.html** file inside the _templates_ folder with some _Lorem Ipsum_ content.
 
 Structure will be like this:
 
