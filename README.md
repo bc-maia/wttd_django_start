@@ -1,5 +1,9 @@
 # Django
 
+This repository is a simple reference/tutorial like instruction for deploy a first time Heroku Django-based Project.
+
+This project is currently running **[Here](https://another-events-app.herokuapp.com/)**.
+
 ---
 
 ## Activating Python venv & Install Django
@@ -274,7 +278,6 @@ SECRET_KEY=0ld_$ecr3t_K3y_V@lu3
 DEBUG=True
 ```
 
-
 Also, add [dj-database-url](https://github.com/jacobian/dj-database-url) dependency, so _Database_ can be decoupled from code either.
 
 ```console
@@ -377,7 +380,7 @@ Then:
 > heroku config:set -a hello-events-app DEBUG=True
 ```
 
-* Add heroku to your git remote
+* Add heroku to your git remote (If it's not already)
 
 ```console
 > heroku git:remote -a hello-events-app
@@ -387,4 +390,12 @@ Then:
 
 ```console
 > git push heroku master --force
+```
+
+## Check Application
+
+To check the log from your online application, In your terminal **run**:
+
+```console
+> heroku logs --tail
 ```
