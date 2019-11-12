@@ -236,7 +236,7 @@ $1="{% static '$2' %}"
 
 ---
 
-## _Release the Kraken_ [using [Heroku](https://dashboard.heroku.com/apps)]
+## [[Heroku](https://dashboard.heroku.com/apps)] Release シン・ゴジラ
 
 Install Heroku CLI following the [instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 
