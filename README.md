@@ -267,12 +267,13 @@ DEBUG = config("DEBUG", default=False, cast=bool)
 ...
 ```
 
-and add these informations into a **.env** file (remember to remove quotes):
+Add these informations into a **.env** file (remember to remove quotes) and **REMEMBER** Do Not Version this file:
 
 ```content
 SECRET_KEY=0ld_$ecr3t_K3y_V@lu3
 DEBUG=True
 ```
+
 
 Also, add [dj-database-url](https://github.com/jacobian/dj-database-url) dependency, so _Database_ can be decoupled from code either.
 
