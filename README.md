@@ -399,3 +399,11 @@ To check the log from your online application, In your terminal **run**:
 ```console
 > heroku logs --tail
 ```
+
+## Mind the Yellow Pages ([Error 404](https://docs.djangoproject.com/en/2.2/ref/views/#error-views))
+
+On Heroku hosting, remember to set Django **Debug == False** to avoid it display 404 pages with debugging content and just show plain not found page instead.
+
+```console
+> heroku config:set -a another-events-app DEBUG=False
+```
